@@ -17,3 +17,6 @@ let g:Imap_UsePlaceHolders = 0
 let g:tex_flavor="latex"
 
 set textwidth=80
+"let g:tex_conceal = ""
+set conceallevel=1
+set concealcursor=""
