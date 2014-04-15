@@ -20,3 +20,5 @@ set textwidth=80
 "let g:tex_conceal = ""
 set conceallevel=1
 set concealcursor=""
+syntax spell toplevel
+let g:syntastic_quiet_messages = { "level": ["error", "warning"] }
