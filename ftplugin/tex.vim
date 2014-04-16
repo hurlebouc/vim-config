@@ -9,8 +9,6 @@ imap <buffer> <leader>it <Plug>Tex_InsertItemOnThisLine
 let g:Tex_ViewRule_pdf = 'Skim'
 map <leader>b :silent! call Tex_RunLaTeX()<cr>
 
-set spell
-set spelllang=fr
 let g:Imap_UsePlaceHolders = 0
 
 " peut-être à mettre dans le vimrm
@@ -20,5 +18,7 @@ set textwidth=80
 "let g:tex_conceal = ""
 set conceallevel=1
 set concealcursor=""
-syntax spell toplevel
 let g:syntastic_quiet_messages = { "level": ["error", "warning"] }
+set spell
+set spelllang=fr
+syntax spell toplevel
