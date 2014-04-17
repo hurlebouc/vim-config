@@ -16,8 +16,8 @@ let g:tex_flavor="latex"
 
 set textwidth=80
 "let g:tex_conceal = ""
-set conceallevel=1
-set concealcursor=""
+"set conceallevel=1
+"set concealcursor=""
 let g:syntastic_quiet_messages = { "level": ["error", "warning"] }
 set spell
 set spelllang=fr
