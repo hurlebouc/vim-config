@@ -25,7 +25,7 @@ compilable
 l'endofoncteur
 naturalité
 bijectivité
-monadique
+#onadique
 d'auto-modification
 s'auto-modifier
 semi-calculable
@@ -34,10 +34,12 @@ non-ambigüité
 non-ambigüe
 Réalisabilité
 réalisabilité
-co-monadique
+#o-monadique
 comonade
 #onoidaux
 monoïdaux
 comonades
 co-monadiques
 encapsule
+co-effets
+comonadique
