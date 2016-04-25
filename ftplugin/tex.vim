@@ -6,7 +6,9 @@ set colorcolumn=80
 " problème du é
 imap <buffer> <leader>it <Plug>Tex_InsertItemOnThisLine
 
-let g:Tex_ViewRule_pdf = 'Skim'
+"let g:Tex_ViewRule_pdf = 'Skim'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_ViewRule_pdf = 'okular --unique'
 map <leader>b :silent! call Tex_RunLaTeX()<cr>
 
 let g:Imap_UsePlaceHolders = 0
